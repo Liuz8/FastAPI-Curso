@@ -2,4 +2,5 @@ def get_full_name(first_name, last_name):
     full_name = first_name.title() + ' ' + last_name.title()
     return full_name
 
-print()
+print(get_full_name("Daniel", "paprica"))
+# print(get_full_name("Daniel", 12))
